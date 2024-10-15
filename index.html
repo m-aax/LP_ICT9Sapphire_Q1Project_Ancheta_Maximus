@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max's Badminton Supply</title>
+        <style>
+            body{
+                background-color:azure
+            }
+
+            .column{
+                display: flex;
+            }
+
+            .headings{
+                display: flex;
+                background-color: #1d9533;
+                align-items: center;
+                padding: 10px 20px;
+                border-color:#0b50a1;
+                border-style: solid;
+                border-width: medium;
+                justify-content: space-between;
+            }
+
+            .row{
+                flex: 25%;
+                padding: 25px;
+                text-align:center;
+                flex-wrap: wrap;
+
+            }
+
+            #BadminSupply{
+                background-color:rgb(35, 31, 31);
+                color: white;
+                margin:auto;
+                display: flex;
+                padding: 25px;
+                text-align: center;
+                border-color:bisque;
+                border-style: solid;
+                border-width: medium;
+            }
+
+            #one{
+                border-style:solid;
+                border-radius:0cqmax;
+                border-color: #000000;
+                border-width: medium;
+            }
+
+            #headings2{
+                background-color: rgb(35, 31, 31);
+                color: white;
+                padding: 10px;
+                text-align: center;
+                border-color:bisque;
+                border-style: solid;
+                border-width: medium;
+                display: flex;
+                margin: 10px;
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .Center {
+                text-align: center;
+            }
+
+            .LORS {
+                text-align: right;
+            }
+
+            .left, .Center, .LORS {
+                flex: 1;
+            }
+
+            ul{
+                width: 400px;
+                margin-left:auto;
+                margin-right: auto;
+            }
+        </style> 
+
+
+</head>
+<body>
+
+    <div class="headings">
+        <div class="left">
+            <strong>Home</strong>
+        </div>
+        
+        <div class="Center">
+            Best selling | Shops
+        </div>
+
+        <div class="LORS">
+            <a href="#">Login</a>
+            |
+            <a href="#">Sign in</a>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="BadminSupply">
+        <h2 style="text-align:center; font-size: large; font-family: Arial, Helvetica, sans-serif;">Max's Badminton Supply (NEW ARRIVALS)</h2>
+        
+    </div>
+    
+<p style="font-family: Arial, Helvetica, sans-serif; color: red;"><strong>Rackets:</strong></p>
+
+    <div class="column">
+        <div class="row">
+        <img src="saved images for ict/astrox100game.webp" alt="Yonex Astrox 100 GAME" width="100%" id="one">
+             <p style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">ASTROX 100 GAME - Php 1,200</p>
+            <p2 style="text-align: left; font-family: Arial, Helvetica, sans-serif;">This racket is perfect for good clears and smashes. Great for beginner players.</p2>
+        </div>
+        
+        <div class="row">
+        <img src="saved images for ict/duora-zstrike.webp" alt="Yonex Duora Z-STRIKE" width="100%" id="one">
+            <p style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">DUORA Z-STRIKE - Php 1,500</p>
+            <p2 style="text-align: left; font-family: Arial, Helvetica, sans-serif;">This racket is great for defensive-style players. Suitable to any type of player depending on experience.</p2>
+            </div>
+    
+        <div class="row">
+            <img src="saved images for ict/nanoflare_1000_z.webp" alt="Yonex Nanoflare 1000 ZZ" width="100%" id="one">
+                <p style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">NANOFLARE 1000 ZZ - Php 3,500</p>
+                <p2 style="text-align: left; font-family: Arial, Helvetica, sans-serif;">Excellent for offensive plays such as quick smashes. Recommended for professional players.</p2>
+            </div>  
+
+         <div class="row">
+            <img src="saved images for ict/astrox nextage.webp" alt="Yonex Astrox Nextage" width="100%" id="one">
+                    <p style="text-align: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">ASTROX NEXTAGE - Php 1,999</p>
+                    <p2 style="text-align: left; font-family: Arial, Helvetica, sans-serif;">Tension of this racket is great for intermediate players in badminton who are starting to emerge as great players. Suitable for extremely quick smashes.</p2>
+            </div>
+            
+    </div>
+
+
+    <div id="headings2">
+    <h5 style="font-size: x-large; text-align: left; font-family: Arial, Helvetica, sans-serif;">Any recommendations on certain Yonex models?</h5>
+    
+    </div>
+<br>
+    <form>
+        <label for="option">Select from the most popular choices:</label>
+        <select id="option">
+
+            <option value="Option 1">Astrox 100 ZZ</option>
+            <option value="Option 2">Arcsaber 7 Tour</option>
+            <option value="Option 3">Nanoflare 700 Pro</option>
+            <option value="Option 4">Astrox 99 Game</option>
+            <option value="Option 5">Isometric Lite 3</option>
+        </select>
+
+    </form>
+
+    <br>
+
+    <div id="headings2">
+    <h6 style="font-size: x-large; text-align: center; font-family: Arial, Helvetica, sans-serif;">Have another recommendation?</h6>
+    </div>
+    <form>
+        <label>Input Here:</label>
+        <input type="text" placeholder="Add your recommendation!">
+
+        <br>
+    
+        <button class="button">Add Recommendation</button>
+
+    </form>
+
+
+    <p style="font-family: Arial, Helvetica, sans-serif; text-align: center;">SUBMITTED BY MAXIMUS ANCHETA
+        <br> 
+        Special thanks to:
+        <ul>
+            <li>luis</li>
+            <li>myself</li>
+            <li><a href="https://www.yonex.com/badminton" target="_blank">Yonex Badminton</a></li>
+        </ul>
+    </p>
+
+
+
+
+</body>
+</html>
